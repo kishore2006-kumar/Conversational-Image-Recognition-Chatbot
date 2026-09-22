@@ -26,7 +26,7 @@ from pymongo import MongoClient
 # ==========================================
 # 1. API & DATABASE CONFIGURATION
 # ==========================================
-client = genai.Client(api_key="AIzaSyBcg1XJE6WZCtRFwFgS5FbOXL0t5nhj1tI")
+client = genai.Client(api_key="MY_API")
 
 # UPDATED: Direct connection to your local MongoDB Community Server
 MONGO_URI = "mongodb://localhost:27017/"
