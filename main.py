@@ -19,9 +19,6 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
-from pymongo import MongoClient
-
 # ==========================================
 # 1. API & DATABASE CONFIGURATION
 # ==========================================
