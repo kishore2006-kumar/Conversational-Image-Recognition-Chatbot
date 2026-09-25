@@ -36,7 +36,6 @@ users_collection = None
 history_collection = None
 
 try:
-    # UPDATED: Simplified for local use (Removed SSL/Atlas-specific settings)
     mongo_client = MongoClient(MONGO_URI)
     
     # Verify the connection
