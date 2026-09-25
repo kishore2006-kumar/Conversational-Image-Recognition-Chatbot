@@ -9,7 +9,6 @@ from google import genai
 from google.genai import types
 
 from pymongo import MongoClient
-# from pymongo.server_api import ServerApi
 
 app = FastAPI(title="Vision Engine")
 
